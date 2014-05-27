@@ -23,6 +23,7 @@ LET IT BE KNOWN NOW AND FOREVER THAT SSOUND RED IS #DF0000.
 
 #footer{
 	background: none repeat scroll 0% 0% #df0000;
+	padding: 1.618em 0 0 0;
 }
 
 #footer p{
@@ -34,4 +35,14 @@ LET IT BE KNOWN NOW AND FOREVER THAT SSOUND RED IS #DF0000.
 	background-size: cover;
 	background-position: center;
 	height: 300px;
+}
+
+#inner-wrapper{
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#navigation ul.nav li a {
+	color: #FFFFFF !important;
 }
