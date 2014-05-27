@@ -1,0 +1,37 @@
+/*
+ Theme Name:   SSound
+ Description:  Theme for ssound.org
+ Author:       Isaac Banner
+ Author URI:   http://www.isaacbanner.com
+ Template:     hub
+ Version:      1.0.0
+*/
+
+@import url("../hub/style.css");
+
+/* Theme customization starts here
+-------------------------------------------------------------- */
+
+/* 
+LET IT BE KNOWN NOW AND FOREVER THAT SSOUND RED IS #DF0000.
+	- ISAAC
+*/
+
+#header-wrapper{
+	background: none repeat scroll 0% 0% #df0000;
+}
+
+#footer{
+	background: none repeat scroll 0% 0% #df0000;
+}
+
+#footer p{
+	color: white;
+}
+
+#intro-message{
+	background-image: url(alllllladdin.jpg); 
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+}
