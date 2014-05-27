@@ -4,7 +4,7 @@
  Author:       Isaac Banner
  Author URI:   http://www.isaacbanner.com
  Template:     hub
- Version:      1.0.0
+ Version:      0.0.5
 */
 
 @import url("../hub/style.css");
@@ -19,6 +19,7 @@ LET IT BE KNOWN NOW AND FOREVER THAT SSOUND RED IS #DF0000.
 
 #header-wrapper{
 	background: none repeat scroll 0% 0% #df0000;
+	padding: .5em 0;
 }
 
 #footer{
@@ -43,6 +44,15 @@ LET IT BE KNOWN NOW AND FOREVER THAT SSOUND RED IS #DF0000.
 	margin-right: auto;
 }
 
+#header #navigation {
+	padding-top: 2.5%;
+}
+
 #navigation ul.nav li a {
 	color: #FFFFFF !important;
+}
+
+#clef{
+	float: left;
+	max-width: 100%;
 }
