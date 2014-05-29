@@ -38,6 +38,12 @@ LET IT BE KNOWN NOW AND FOREVER THAT SSOUND RED IS #DF0000.
 	height: 300px;
 }
 
+#intro-message .wrapper{
+	/* May seem redundant. Trust me, it's not. */
+	max-width: 100%;
+	padding: 0 2.5%;
+}
+
 #inner-wrapper{
 	max-width: 1280px;
 	min-width: 1024px;
@@ -62,6 +68,13 @@ LET IT BE KNOWN NOW AND FOREVER THAT SSOUND RED IS #DF0000.
 	background: #FFFFFF;
 	border-top: .25em solid #f36557;
 	padding: 2.5em 0;
+}
+
+#featured-slider-pagination ul#carousel-items{
+	/* Just trust me on this one. */
+	min-height: 317px;
+	max-height: 317px;
+	min-width: 336px;
 }
 
 #footer-wrapper{
