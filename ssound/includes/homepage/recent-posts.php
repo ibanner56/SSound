@@ -87,7 +87,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 			<ul id="carousel-items">
 			<?php $count = 0; while ( $recent_posts->have_posts() ) : $recent_posts->the_post(); $count++; ?>
 
-				<li<?php if ( $count == 3 ): ?> class="last"<?php endif; ?>>
+				<li<?php if ( $count == 2 ): ?> class="last"<?php endif; ?>>
 					<a href="#slide-<?php echo $count - 1; ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"<?php if ( $count == 1 ): ?> class="active"<?php endif; ?>>
 						<?php echo get_avatar( get_the_author_meta('email'), '80' ); ?>
 						<div class="details">
@@ -99,7 +99,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 			<?php endwhile; ?>
 			</ul>
-			<button type="button" id="next"<?php if ( $count <= 3 ): ?> class="disabled"<?php endif; ?>></button>
+			<button type="button" id="next"<?php if ( $count <= 2 ): ?> class="disabled"<?php endif; ?>></button>
 		</div><!-- /#featured-slider-pagination -->
 		<?php endif; ?>
 

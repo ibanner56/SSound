@@ -70,6 +70,14 @@ LET IT BE KNOWN NOW AND FOREVER THAT SSOUND RED IS #DF0000.
 	padding: 2.5em 0;
 }
 
+.home-section header.section-title{
+	margin-bottom: 2.5em;
+}
+
+.home-section header.section-title:after{
+	width: 15.5%;
+}
+
 #featured-slider-pagination ul#carousel-items{
 	/* Just trust me on this one. */
 	min-height: 317px;
