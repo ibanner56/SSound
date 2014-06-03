@@ -17,6 +17,23 @@ LET IT BE KNOWN NOW AND FOREVER THAT SSOUND RED IS #DF0000.
 	- ISAAC
 */
 
+html {
+	min-height: 100%;
+}
+
+body {
+
+	background: none;
+	background-image: url(bg.png);
+	background-size: contain;
+	background-repeat: none;
+	min-height: 100%;
+}
+
+.bigwrap {
+	min-height: 100%;
+}
+
 #header-wrapper{
 	background: none repeat scroll 0% 0% #DF0000;
 	padding: .5em 0;
@@ -49,6 +66,7 @@ LET IT BE KNOWN NOW AND FOREVER THAT SSOUND RED IS #DF0000.
 	min-width: 1024px;
 	margin-left: auto;
 	margin-right: auto;
+	background: #FFFFFF;
 }
 
 #header #navigation {
@@ -87,4 +105,5 @@ LET IT BE KNOWN NOW AND FOREVER THAT SSOUND RED IS #DF0000.
 
 #footer-wrapper{
 	border-top: .25em solid #f36557;
+	height: 77px;
 }
