@@ -107,3 +107,22 @@ body {
 	border-top: .25em solid #f36557;
 	height: 77px;
 }
+
+
+h2 .from{
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+.bio {
+	font-size: 16px;
+}
+
+.hentry .biopic {
+	margin-bottom: 0;
+}
+
+.biodiv {
+	height: 200px;
+	margin-bottom: 25px;
+}
