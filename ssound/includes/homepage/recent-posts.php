@@ -41,7 +41,8 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 			$args = array(
 						'posts_per_page' => 6,
-						'ignore_sticky_posts' => 1
+						'ignore_sticky_posts' => 1,
+						'category_name' => 'posts'
 					);
 
 			$recent_posts = new WP_Query( $args );
