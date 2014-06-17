@@ -4,7 +4,7 @@
  Author:       Isaac Banner
  Author URI:   http://www.isaacbanner.com
  Template:     hub
- Version:      0.0.5
+ Version:      0.10
 */
 
 @import url("../hub/style.css");
@@ -110,6 +110,10 @@ body {
 
 .current-page {
 	text-decoration: underline;
+}
+
+#comments-wrapper {
+	background: #e7e8e8;
 }
 
 h2 .from{
