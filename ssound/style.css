@@ -4,7 +4,7 @@
  Author:       Isaac Banner
  Author URI:   http://www.isaacbanner.com
  Template:     hub
- Version:      0.10
+ Version:      0.11
 */
 
 @import url("../hub/style.css");
@@ -30,8 +30,9 @@ body {
 	min-height: 100%;
 }
 
-.bigwrap {
+body .bigwrap {
 	min-height: 100%;
+	overflow: visible !important;
 }
 
 #header-wrapper{
@@ -114,6 +115,10 @@ body {
 
 #comments-wrapper {
 	background: #e7e8e8;
+}
+
+article hr {
+	height: 2px;
 }
 
 h2 .from{
