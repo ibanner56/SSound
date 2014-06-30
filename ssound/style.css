@@ -50,21 +50,37 @@ body .bigwrap {
 }
 
 #intro-message{
-	background-image: url(alllllladdin.jpg); 
+	background: #F36557;
 	background-size: cover;
 	background-position: center;
 	height: 300px;
+	padding-top: 0;
+	position: relative;
+}
+
+.huge_it_slideshow_image_wrap_1 {
+	z-index: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 #intro-message .wrapper{
 	/* May seem redundant. Trust me, it's not. */
 	max-width: 100%;
 	padding: 0 2.5%;
+	padding-top: 3.631em;
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
 }
 
 #inner-wrapper{
 	max-width: 1280px;
-	min-width: 1024px;
+	min-width: 1280px;
 	margin-left: auto;
 	margin-right: auto;
 	background: #FFFFFF;
@@ -119,6 +135,12 @@ body .bigwrap {
 
 article hr {
 	height: 2px;
+}
+
+input[type=text], input.input-text, textarea, 
+input.txt, input[type=tel], input[type=email], 
+input[type=password] {
+	background: #e5e5e5;
 }
 
 h2 .from{

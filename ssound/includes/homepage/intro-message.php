@@ -24,6 +24,8 @@ $settings = woo_get_dynamic_values( $settings );
 
 <section id="intro-message" class="home-section">
 
+	<?php echo do_shortcode("[metaslider id=167]"); ?>
+
 	<div class="wrapper">
 
 		<?php if ( '' != $settings['homepage_intro_message_heading'] ): ?>
